@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.mediaplayer"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.mediaplayer"
@@ -15,6 +15,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures{
+        viewBinding=true
     }
 
     buildTypes {
